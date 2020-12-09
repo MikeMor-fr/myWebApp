@@ -5,7 +5,7 @@ using myWebApp.Services;
 
 namespace myWebApp.Controllers
 {
-    [Route("[controller]")]
+    [Route("/products")]
     [ApiController]
     public class ProductController : ControllerBase
     {
